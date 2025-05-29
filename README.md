@@ -29,21 +29,20 @@
 
 CampusSign/
 ├── app/
-│ ├── extractor.py # Mediapipe 기반 키포인트 추출
-│ ├── preprocess.py # JSON → 시퀀스 변환
-│ ├── dataset.py # Dataset 클래스 정의
-│ ├── model.py # LSTM 모델 정의 및 로딩
-│ ├── train.py # 모델 학습 로직
-│ ├── run_pipeline.py # .mkv → .json → .npy 자동 변환
-│ ├── label_mapping.json # 라벨 매핑 정보
-│ └── sentence_templates.json # 단어별 문장 템플릿
-├── train_runner.py # 학습 실행용 스크립트
-├── streamlit_app.py # Streamlit 기반 웹앱 실행 파일
-├── npy_data/ # 전처리된 .npy 데이터 저장 폴더
-├── assets/sign_videos/ # 원본 수어 영상 저장 폴더
-├── requirements.txt # 의존성 목록
+│   ├── extractor.py              ← Mediapipe 기반 키포인트 추출
+│   ├── preprocess.py             ← JSON → 시퀀스 변환
+│   ├── dataset.py                ← PyTorch Dataset 정의
+│   ├── model.py                  ← LSTM 모델 정의 및 로딩
+│   ├── train.py                  ← 모델 학습 로직
+│   ├── run_pipeline.py           ← .mkv → .json → .npy 자동 변환
+│   ├── label_mapping.json        ← 라벨 매핑 정보
+│   └── sentence_templates.json   ← 단어별 문장 템플릿
+├── train_runner.py               ← 학습 실행용 스크립트
+├── streamlit_app.py              ← Streamlit 기반 웹앱 실행 파일
+├── npy_data/                     ← 전처리된 .npy 데이터 저장 폴더
+├── assets/sign_videos/           ← 원본 수어 영상 저장 폴더
+├── requirements.txt              ← 의존성 목록
 └── README.md
-
 
 ---
 
