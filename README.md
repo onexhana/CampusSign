@@ -27,7 +27,7 @@
 
 ## 🧩 프로젝트 구조
 
-
+```
 CampusSign/
 ├── app/
 │   ├── extractor.py              ← Mediapipe 기반 키포인트 추출
@@ -44,8 +44,7 @@ CampusSign/
 ├── assets/sign_videos/           ← 원본 수어 영상 저장 폴더
 ├── requirements.txt              ← 의존성 목록
 └── README.md
-
----
+```
 
 
 ## 🚀 실행 방법
