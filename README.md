@@ -107,22 +107,11 @@ streamlit run streamlit_app.py
 * 🧪 사용자 정의 수어 추가 및 학습 기능
 * 🔊 음성 출력 연동 (TTS)
 
----
+--
 
 ## 📩 문의
 
 * 개발자: CampusSign 팀
 * 이메일: [your\_email@example.com](mailto:your_email@example.com)
 * 라이선스: MIT License
-
----
-
-```
-
----
-
-위 내용을 그대로 `README.md`에 붙여넣으면 됩니다.  
-원하시면 여기에 배포 링크나 이미지/GIF 예시도 추가해드릴게요!
-```
-
 
