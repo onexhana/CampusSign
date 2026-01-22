@@ -106,3 +106,9 @@ streamlit run streamlit_app.py
 * 🧪 사용자 정의 수어 추가 및 학습 기능
 * 🔊 음성 출력 연동 (TTS)
 
+
+---
+
+## 📌 발표 자료
+![KNU-Talker_최종](https://github.com/user-attachments/assets/64360155-7d7a-4b67-8591-078d028ddab7)
+
